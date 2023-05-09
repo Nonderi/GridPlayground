@@ -1,0 +1,7 @@
+.header {
+  position: sticky;
+  border-bottom: solid;
+  color: darkblue;
+  width: 100%;
+  text-align: center;
+}

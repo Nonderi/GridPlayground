@@ -1,0 +1,10 @@
+#root {
+  max-width: 1280px;
+  padding: 2rem;
+  text-align: center;
+}
+.container {
+  margin: 0 0 0 190px;
+  display: grid;
+}
+/*miksi sidebar on containerin sisällä vaikka ne on eri divissä?*/

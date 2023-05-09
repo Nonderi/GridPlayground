@@ -1,0 +1,16 @@
+.sidebar {
+  border: solid;
+  position: absolute;
+  left: 0;
+  text-align: start;
+  padding: 1em;
+  width: 10em;
+}
+
+.input {
+  width: 50px;
+}
+
+.option {
+  width: 50px;
+}
