@@ -1,4 +1,4 @@
-import { Children, CSSProperties, useState } from "react";
+import { CSSProperties, useState } from "react";
 import "./App.module.css";
 import Box from "./components/Box";
 import Header from "./components/Header";
