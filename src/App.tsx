@@ -8,12 +8,7 @@ import { range } from "./utils";
 function App() {
   const gridStyleState = useState<CSSProperties>({
     justifyContent: "",
-    alignItems: "",
-    rowGap: "0px",
-    columnGap: "0px",
     gridAutoFlow: "",
-    gridAutoColumns: "",
-    gridAutoRows: "",
     gridTemplateColumns: "1fr 1fr 1fr",
     gridTemplateRows: "",
   });
