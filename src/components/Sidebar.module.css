@@ -1,5 +1,6 @@
 .sidebar {
-  border: solid;
+  border: none;
+  box-shadow: 0 0 4px darkgrey;
   position: absolute;
   left: 0;
   text-align: start;
