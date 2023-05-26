@@ -18,6 +18,7 @@ function Sidebar({ setGridStyle, gridStyle }: OwnProps) {
           setGridStyle({ justifyContent: e.target.value });
         }}
       >
+        <Option>-</Option>
         <Option>center</Option>
         <Option>start</Option>
         <Option>end</Option>
