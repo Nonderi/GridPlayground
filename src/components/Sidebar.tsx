@@ -29,7 +29,7 @@ function Sidebar({ setGridStyle, gridStyle }: OwnProps) {
       <select
         value={gridStyle.gridAutoFlow}
         onChange={(e) => {
-          setGridStyle({ gridAutoFlow: e.target.value });
+          setGridStyle({ ...gridStyle, gridAutoFlow: e.target.value });
         }}
       >
         <Option>-</Option>
@@ -42,7 +42,7 @@ function Sidebar({ setGridStyle, gridStyle }: OwnProps) {
       <select
         value={gridStyle.gridTemplateColumns}
         onChange={(e) => {
-          setGridStyle({ gridTemplateColumns: e.target.value });
+          setGridStyle({ ...gridStyle, gridTemplateColumns: e.target.value });
         }}
       >
         <Option>1fr</Option>
@@ -58,7 +58,7 @@ function Sidebar({ setGridStyle, gridStyle }: OwnProps) {
       <select
         value={gridStyle.gridTemplateRows}
         onChange={(e) => {
-          setGridStyle({ gridTemplateRows: e.target.value });
+          setGridStyle({ ...gridStyle, gridTemplateRows: e.target.value });
         }}
       >
         <Option>-</Option>
